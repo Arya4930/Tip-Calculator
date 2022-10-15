@@ -37,10 +37,8 @@
 .bill-input-sign {
   position: relative;
   color: white;
-  top: -26px;
-  right: -22px;
+  right: 235px;
   font-size: 17px;
-  z-index: 10;
 }
 .Bottom-Container {
   height: auto;
