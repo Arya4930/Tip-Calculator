@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>TipCalculator</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="styles/general.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="wrapper">
+    <div class="heading"><b>Tip Calculator</b></div>
+
+    <div class="Top-Container">
+      <div class="h2"><br><b>Bill Total</b></div>
+      <input type="text" placeholder="0.00" class="Bill-input" id="Bill-input" onkeyup="CalculateBill()">
+      <div class="bill-input-sign">$</div>
+    </div>
+
+    <div class="Middle-Container">
+      <div class="h2"><b>Tip</b></div>
+      <input type="text" placeholder="10" class="Bill-input" id="tip-input" onkeyup="CalculateBill()">
+      <div class="bill-input-sign">%</div>
+    </div>
+
+    <div class="Bottom-Container">
+      <div class="h2" style="margin-right: 10px;"><b>Number of People</b></div>
+      <div class="no-of-people">
+        <button class="number-down" onclick="DecreasePeople()">-</button>
+        <span id="Number-of-People" style="color: white;"><b>1</b></span>
+        <button class="number-up" onclick="increasePeople()">+</button>
+      </div>
+      <div class="h2"><b>Total Per Person</b></div>
+      <span class="Total-Bill" id="Total-Per-Person"><b>0.00$</b></span>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>

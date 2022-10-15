@@ -1,0 +1,71 @@
+.wrapper {
+  background-color: #272639;
+  margin-top: 120px;
+  height: auto;
+  border: 1px gray solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 230px;
+}
+
+.heading {
+  color: white;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-size: 30px;
+}
+.h2 {
+  color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 17px;
+}
+.Bill-input {
+  flex: 1;
+  padding-left: 20px;
+  margin-top: 7px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 100px;
+  height: 30px;
+  background-color: #353959;
+  font-size: 17px;
+  color: white;
+}
+.bill-input-sign {
+  position: relative;
+  color: white;
+  top: -26px;
+  right: -22px;
+  font-size: 17px;
+  z-index: 10;
+}
+.Bottom-Container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1fr 1fr;
+}
+.number-down,
+.number-up {
+  background-color: #8990ec;
+  margin-top: 10px;
+  border: none;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  justify-content: space-around;
+}
+.number-down:hover,
+.number-up:hover {
+  cursor: pointer;
+}
+.Total-Bill {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 20px;
+}
