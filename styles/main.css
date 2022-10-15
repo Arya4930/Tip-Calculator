@@ -16,12 +16,14 @@
   padding-left: 10px;
   font-size: 30px;
 }
+
 .h2 {
   color: white;
   padding-top: 10px;
   padding-left: 15px;
   font-size: 17px;
 }
+
 .Bill-input {
   flex: 1;
   padding-left: 20px;
@@ -34,12 +36,14 @@
   font-size: 17px;
   color: white;
 }
+
 .bill-input-sign {
   position: relative;
   color: white;
   right: 235px;
   font-size: 17px;
 }
+
 .Bottom-Container {
   height: auto;
   display: flex;
@@ -47,6 +51,7 @@
   align-items: center;
   flex: 1fr 1fr;
 }
+
 .number-down,
 .number-up {
   background-color: #8990ec;
@@ -57,13 +62,41 @@
   width: 30px;
   justify-content: space-around;
 }
+
 .number-down:hover,
 .number-up:hover {
   cursor: pointer;
 }
+
 .Total-Bill {
   color: white;
   padding-top: 10px;
   padding-bottom: 50px;
   font-size: 20px;
+}
+
+.Button1 {
+  position: absolute;
+  background-color: #272639;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  height: 30px;
+  margin-left: 20px;
+  width: 170px;
+  cursor: pointer;
+  top: 40px;
+}
+
+.vertical-line {
+  top: 10px;
+  border-left: 6px solid white;
+  border-radius: 10px;
+  height: 100px;
+  position: absolute;
+}
+.More-links {
+  top: 0;
+  left: 10px;
+  position: absolute;
 }

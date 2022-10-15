@@ -3,6 +3,7 @@ const BillInput = document.getElementById('Bill-input')
 const TipInput = document.getElementById('tip-input')
 const NumberOfPeopleDiv = document.getElementById('Number-of-People')
 const PerPersonTotalDiv = document.getElementById('Total-Per-Person')
+const MoreLinksButton = document.getElementById('More-links')
 // ======
 
 let NumberOfPeople = Number(NumberOfPeopleDiv.innerText)
@@ -36,4 +37,7 @@ const DecreasePeople = () => {
 
         CalculateBill()
     }
+}
+const moreLinksClickFunction = () => {
+    window.location.href = "https://arya4930.github.io/Youtube-Clone/"
 }
